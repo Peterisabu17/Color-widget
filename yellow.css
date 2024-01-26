@@ -316,6 +316,20 @@ font-size: 1.25rem;
 }
 
 @media (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+    background-size: cover;
+  }
+
+  .yellow-body .yellow-body-project {
+    width: 100%;
+  }
+
+  .yellow-body {
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+  }
 
   .green-body .green-body-texts {
     margin-top: 60px;
