@@ -327,6 +327,10 @@ font-size: 1.25rem;
 
 
 @media (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+    background-size: cover;
+  }
 
   .orange-body .orange-body-texts {
     margin-top: 60px;

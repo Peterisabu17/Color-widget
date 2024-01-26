@@ -217,6 +217,11 @@ body {
 }
 
 @media (max-width: 450px) {
+  body {
+    overflow-x: hidden;
+    background-size: cover;
+  }
+
   .widget-container .widget-color {
     text-align: center;
   }
