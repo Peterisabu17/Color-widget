@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Orange-Page</title>
+    <link rel="stylesheet" href="orange.css" />
+    <link rel="stylesheet" href="orange-annimation.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="menu__wrapper">
+      <div class="menu__bar">
+        <a href="#" title="Logo">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="60"
+            viewBox="0 -960 960 960"
+            width="60"
+            color="white"
+          >
+            <path
+              d="M120-380q-8 0-14-6t-6-14q0-8 6-14t14-6q8 0 14 6t6 14q0 8-6 14t-14 6Zm0-160q-8 0-14-6t-6-14q0-8 6-14t14-6q8 0 14 6t6 14q0 8-6 14t-14 6Zm120 340q-17 0-28.5-11.5T200-240q0-17 11.5-28.5T240-280q17 0 28.5 11.5T280-240q0 17-11.5 28.5T240-200Zm0-160q-17 0-28.5-11.5T200-400q0-17 11.5-28.5T240-440q17 0 28.5 11.5T280-400q0 17-11.5 28.5T240-360Zm0-160q-17 0-28.5-11.5T200-560q0-17 11.5-28.5T240-600q17 0 28.5 11.5T280-560q0 17-11.5 28.5T240-520Zm0-160q-17 0-28.5-11.5T200-720q0-17 11.5-28.5T240-760q17 0 28.5 11.5T280-720q0 17-11.5 28.5T240-680Zm160 340q-25 0-42.5-17.5T340-400q0-25 17.5-42.5T400-460q25 0 42.5 17.5T460-400q0 25-17.5 42.5T400-340Zm0-160q-25 0-42.5-17.5T340-560q0-25 17.5-42.5T400-620q25 0 42.5 17.5T460-560q0 25-17.5 42.5T400-500Zm0 300q-17 0-28.5-11.5T360-240q0-17 11.5-28.5T400-280q17 0 28.5 11.5T440-240q0 17-11.5 28.5T400-200Zm0-480q-17 0-28.5-11.5T360-720q0-17 11.5-28.5T400-760q17 0 28.5 11.5T440-720q0 17-11.5 28.5T400-680Zm0 580q-8 0-14-6t-6-14q0-8 6-14t14-6q8 0 14 6t6 14q0 8-6 14t-14 6Zm0-720q-8 0-14-6t-6-14q0-8 6-14t14-6q8 0 14 6t6 14q0 8-6 14t-14 6Zm160 480q-25 0-42.5-17.5T500-400q0-25 17.5-42.5T560-460q25 0 42.5 17.5T620-400q0 25-17.5 42.5T560-340Zm0-160q-25 0-42.5-17.5T500-560q0-25 17.5-42.5T560-620q25 0 42.5 17.5T620-560q0 25-17.5 42.5T560-500Zm0 300q-17 0-28.5-11.5T520-240q0-17 11.5-28.5T560-280q17 0 28.5 11.5T600-240q0 17-11.5 28.5T560-200Zm0-480q-17 0-28.5-11.5T520-720q0-17 11.5-28.5T560-760q17 0 28.5 11.5T600-720q0 17-11.5 28.5T560-680Zm0 580q-8 0-14-6t-6-14q0-8 6-14t14-6q8 0 14 6t6 14q0 8-6 14t-14 6Zm0-720q-8 0-14-6t-6-14q0-8 6-14t14-6q8 0 14 6t6 14q0 8-6 14t-14 6Zm160 620q-17 0-28.5-11.5T680-240q0-17 11.5-28.5T720-280q17 0 28.5 11.5T760-240q0 17-11.5 28.5T720-200Zm0-160q-17 0-28.5-11.5T680-400q0-17 11.5-28.5T720-440q17 0 28.5 11.5T760-400q0 17-11.5 28.5T720-360Zm0-160q-17 0-28.5-11.5T680-560q0-17 11.5-28.5T720-600q17 0 28.5 11.5T760-560q0 17-11.5 28.5T720-520Zm0-160q-17 0-28.5-11.5T680-720q0-17 11.5-28.5T720-760q17 0 28.5 11.5T760-720q0 17-11.5 28.5T720-680Zm120 300q-8 0-14-6t-6-14q0-8 6-14t14-6q8 0 14 6t6 14q0 8-6 14t-14 6Zm0-160q-8 0-14-6t-6-14q0-8 6-14t14-6q8 0 14 6t6 14q0 8-6 14t-14 6Z"
+            />
+          </svg>
+        </a>
+        <img
+          class="menu-icon"
+          src="burger-menu.svg"
+          title="Burger Menu"
+          alt="Burger Menu"
+          onclick="toggleMenu(this)"
+        />
+        <ul class="navigation">
+          <li>
+            <a href="#services" title="Services"> Services </a>
+          </li>
+          <li>
+            <a href="#blog" title="Blog"> Blog </a>
+          </li>
+          <li>
+            <a href="#about" title="About"> About </a>
+          </li>
+          <li>
+            <a href="#contact-us" title="Contact Us"> Contact Us </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <br />
+    <div class="orange-body">
+      <div class="orange-body-texts">
+        <h1>Coming Soon...</h1>
+        <p>
+          "Foster a supportive culture to build loyalty, retention, and ensure a
+          thriving, engaged workforce for sustained success."
+        </p>
+        <button onclick="location.href='index.html'">Sign-up</button>
+      </div>
+      <div class="orange-body-project">
+        <div class="tabs-container">
+          <ul class="tabs">
+            <li>
+              <a id="tab1" href="#tab1">
+                <img
+                  src="Assets/icons/stocks-icon.svg"
+                  alt="analytics"
+                  class="icon"
+                />
+                Analytics
+              </a>
+              <br />
+
+              <a id="tab2" href="#tab2">
+                <img
+                  src="Assets/icons/report-icon.svg"
+                  alt="reports"
+                  class="icon"
+                />
+                Reports
+              </a>
+              <br />
+
+              <a id="tab3" href="#tab3">
+                <img
+                  src="Assets/icons/project-manager-icon.svg"
+                  alt="performance"
+                  class="icon"
+                />
+                Performance
+              </a>
+              <br />
+
+              <a id="tab4" href="#tab4">
+                <img
+                  src="Assets/icons/wallet-to-bank-icon.svg"
+                  alt="assets"
+                  class="icon"
+                />
+                Assets
+              </a>
+            </li>
+          </ul>
+
+          <div class="tab-content-wrapper">
+            <article id="tab1-content" class="tab-content">
+              <h2 class="h2">Analytics</h2>
+              <p>
+                Investment analytics involves the use of data, ststistical
+                techniques, and financial models to optie investment decisions.
+              </p>
+              <img src="Assets/images/SpireTec Solutions.jpg" alt="analytics" />
+            </article>
+
+            <article id="tab2-content" class="tab-content">
+              <h2 class="h2">Reports</h2>
+              <p>
+                Investment reports provide detailed inforon about the status,
+                perforance, and other relevant aspects of an investment
+                portfolio.
+              </p>
+              <img
+                src="Assets/images/How to Conduct Rental Market Analysis with Our Real Estate Investment App.jpg"
+                alt="reports"
+              />
+            </article>
+
+            <article id="tab3-content" class="tab-content">
+              <h2 class="h2">Performance</h2>
+              <p>
+                Investment performance refers to the returns generated on an
+                investment relative to the amount ofoney invested.
+              </p>
+              <img
+                src="Assets/images/Wage trends and the future of metal fabrication.jpg"
+                alt="perforance"
+              />
+            </article>
+
+            <article id="tab4-content" class="tab-content">
+              <h2 class="h2">Funds</h2>
+              <p>
+                Investment funds are pooled collections of money from multiple
+                investors that are managed collectively by professionals or on
+                behalf of the investors
+              </p>
+              <img
+                src="Assets/images/The $4T disruption_ Why startup investing is up for a big change.jpg"
+                alt="funds"
+              />
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="orange.js"></script>
+  </body>
+</html>

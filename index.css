@@ -1,0 +1,234 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-family: Poppins; 
+  background-image: url(src/mimi-thian--VHQ0cw2euA-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.widget-container {
+  justify-content: center;
+  text-align: center;
+  height: 1000px;
+  display: flex;
+  width: 100%;
+}
+
+.widget-container .orange-widget {
+  width: 25%;
+  color: rgb(246, 248, 111);
+  background-color: rgb(230, 106, 24, 0.9);
+}
+
+.orange-widget .texts {
+  margin-top: 430px;
+}
+
+.widget-container .yellow-widget {
+  width: 25%;
+  color: rgb(230, 106, 24);
+  background-color: rgb(246, 248, 111, 0.9);
+}
+
+.yellow-widget .texts {
+  margin-top: 30px;
+}
+
+.green-widget .texts {
+  margin-top: 280px;
+}
+
+.widget-container .green-widget {
+  width: 25%;
+  color: rgb(246, 248, 111);
+  background-color: rgba(35, 73, 61, 0.9);
+}
+
+.lemon-widget .texts {
+  margin-top: 150px;
+}
+
+.widget-container .lemon-widget {
+  width: 25%;
+  color: rgb(35, 73, 61);
+  background-color: rgb(19, 221, 154, 0.9);
+}
+
+.widget-container .texts {
+  text-align: center;
+  /* padding: 30px; */
+}
+
+.widget-container .texts p {
+  padding: 20px;
+}
+
+.widget-container .texts button {
+  margin-bottom: 20px;
+}
+
+.widget-container .widget-color .texts h1 {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.orange-widget .texts h1 {
+  margin-top: 50px;
+}
+
+.widget-container .widget-color .texts h2 {
+  margin-bottom: 0;
+}
+
+.widget-container .widget-color .texts p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.widget-container h1 {
+  font-size: 150px;
+}
+
+.color-btn {
+  padding: 10px;
+  width: 120px;
+  border-radius: 10px;
+}
+
+.orange-btn {
+  font-size: 20px;
+  background-color: rgb(230, 106, 24, 0.6);
+  color: rgb(246, 248, 111);
+  border: 5px solid rgb(246, 248, 111, 0.6);
+} 
+
+.orange-btn:hover {
+  background-color: rgb(246, 248, 111);
+  color: rgb(230, 106, 24);
+  border: 5px solid rgb(230, 106, 24);
+}
+
+.yellow-btn {
+  /* margin-top: 30px; */
+  font-size: 20px;
+  background-color: rgb(246, 248, 111, 0.6);
+  color: rgb(230, 106, 24);
+  border: 5px solid rgb(230, 106, 24, 0.6);
+}
+
+.yellow-btn:hover {
+  background-color: rgb(230, 106, 24);
+  color: rgb(246, 248, 111);
+  border: 5px solid rgb(246, 248, 111);
+}
+
+.green-btn {
+  font-size: 20px;
+  background-color: rgb(35, 73, 61, 0.6);
+  color: rgb(246, 248, 111);
+  border: 5px solid rgb(246, 248, 111, 0.6);
+}
+
+.green-btn:hover {
+  background-color: rgb(246, 248, 111);
+  color: rgb(35, 73, 61);
+  border: 5px solid rgb(35, 73, 61);
+}
+
+.lemon-btn {
+  font-size: 20px;
+  background-color: rgb(19, 221, 154, 0.6);
+  color: rgb(35, 73, 61);
+  border: 5px solid rgb(35, 73, 61, 0.6);
+  /* margin-top: 30px; */
+}
+
+.lemon-btn:hover {
+  background-color: rgb(35, 73, 61);
+  color: rgb(19, 221, 154);
+  border: 5px solid rgb(19, 221, 154);
+}
+
+@media (max-width: 700px) {
+  body {
+    background-image: url(src/mimi-thian--VHQ0cw2euA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+  }
+
+  .widget-container {
+    height: 1050px;
+  }
+
+  .widget-container h1 {
+    display: none;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 759px) {
+  body {
+    background-image: url(src/mimi-thian--VHQ0cw2euA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+  }
+
+  .widget-container {
+    height: 1050px;
+  }
+
+  .widget-container h1 {
+    display: none;
+  }
+
+  .widget-container h2 {
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .widget-container button {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+}
+
+@media (max-width: 1300px) {
+  body {
+    background-image: url(src/mimi-thian--VHQ0cw2euA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 100vh;
+  }
+
+  .widget-container .widget-color .texts h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 450px) {
+  .widget-container .widget-color {
+    text-align: center;
+  }
+
+  .widget-container .widget-color .texts {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .widget-container .widget-color .texts h2 {
+    font-size: 20px;
+  }
+
+}
