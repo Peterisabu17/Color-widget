@@ -317,7 +317,7 @@ body {
   .yellow-body {
     height: auto;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
   }
 
   .yellow-body .yellow-body-texts {

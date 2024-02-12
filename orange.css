@@ -328,11 +328,16 @@ body {
     font-size: 50px;
   }
 
+  .orange-body .orange-body-texts p {
+    font-size: 10px;
+  }
+
   .orange-body {
+    padding: 10px;
     width: 100%;
     height: auto;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
   }
 
   .orange-body .orange-body-project {
