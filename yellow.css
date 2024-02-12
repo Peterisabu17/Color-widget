@@ -248,7 +248,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: auto;
+  height: 850px;
   background-color: rgb(246, 248, 111, 0.7);
 }
 
@@ -304,7 +304,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   body {
     overflow-x: hidden;
     background-size: cover;
@@ -315,21 +315,16 @@ body {
   }
 
   .yellow-body {
-    height: auto;
+    height: 1300px;
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
   }
 
-  .yellow-body .yellow-body-texts {
+  .green-body .green-body-texts {
     margin-top: 60px;
   }
 
-  .yellow-body .yellow-body-texts h1 {
-    font-size: 40px;
-  }
-
-  .yellow-body .yellow-body-texts p {
-    font-size: 11px;
-    text-align: left;
+  .green-body .green-body-texts h1 {
+    font-size: 50px;
   }
 }

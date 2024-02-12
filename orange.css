@@ -248,7 +248,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: auto;
+  height: 850px;
   background-color: rgb(230, 106, 24, 0.7);
 }
 
@@ -314,7 +314,7 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   body {
     overflow-x: hidden;
     background-size: cover;
@@ -328,16 +328,10 @@ body {
     font-size: 50px;
   }
 
-  .orange-body .orange-body-texts p {
-    font-size: 10px;
-  }
-
   .orange-body {
-    padding: 10px;
-    width: 100%;
-    height: auto;
+    height: 1300px;
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: column;
   }
 
   .orange-body .orange-body-project {
