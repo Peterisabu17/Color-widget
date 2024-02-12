@@ -233,6 +233,10 @@ body {
     height: auto;
   }
 
+  .widget-color {
+    width: 25%;
+  }
+
   .widget-container .widget-color {
     text-align: center;
     width: 100%;
