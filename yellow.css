@@ -327,4 +327,9 @@ body {
   .yellow-body .yellow-body-texts h1 {
     font-size: 40px;
   }
+
+  .yellow-body .yellow-body-texts p {
+    font-size: 10px;
+    text-align: left;
+  }
 }
