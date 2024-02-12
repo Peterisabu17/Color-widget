@@ -2,7 +2,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
-  font-family: Poppins; 
+  font-family: Poppins;
   background-image: url(src/mimi-thian--VHQ0cw2euA-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -105,7 +105,7 @@ body {
   background-color: rgb(230, 106, 24, 0.6);
   color: rgb(246, 248, 111);
   border: 5px solid rgb(246, 248, 111, 0.6);
-} 
+}
 
 .orange-btn:hover {
   background-color: rgb(246, 248, 111);
@@ -199,8 +199,6 @@ body {
     align-items: center;
     justify-content: center;
   }
-
-
 }
 
 @media (max-width: 1300px) {
@@ -216,7 +214,12 @@ body {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 375px) {
+  .scrollable-content {
+    overflow-y: scroll;
+    white-space: nowrap;
+  }
+
   body {
     overflow-x: hidden;
     background-size: cover;
@@ -224,7 +227,7 @@ body {
 
   .widget-container {
     width: 100%;
-    height: 100vh;
+    height: auto;
   }
 
   .widget-container .widget-color {
@@ -234,11 +237,13 @@ body {
   .widget-container .widget-color .texts {
     display: flex;
     align-items: center;
-
   }
 
   .widget-container .widget-color .texts h2 {
-    font-size: 20px;
+    font-size: 1em;
   }
 
+  .widget-container .widget-color .texts h1 {
+    font-size: 1.5em;
+  }
 }
