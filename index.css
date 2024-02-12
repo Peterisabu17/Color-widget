@@ -229,7 +229,7 @@ body {
   body {
     width: 100%;
     height: auto;
-    overflow-x: hidden;
+    overflow-x: unset;
     background-size: cover;
   }
 
