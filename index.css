@@ -181,7 +181,7 @@ body {
   }
 
   .widget-container {
-    height: 1050px;
+    height: auto;
   }
 
   .widget-container h1 {
@@ -215,10 +215,10 @@ body {
 }
 
 @media (max-width: 375px) {
-  .scrollable-content {
+  /* .scrollable-content {
     overflow-y: scroll;
     white-space: nowrap;
-  }
+  } */
 
   body {
     overflow-x: hidden;
@@ -232,18 +232,25 @@ body {
 
   .widget-container .widget-color {
     text-align: center;
+    width: 100%;
   }
 
   .widget-container .widget-color .texts {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .widget-container .widget-color .texts h2 {
     font-size: 10px;
   }
 
-  .widget-container .widget-color .texts h1 {
-    font-size: 13px;
+  .widget-container h1 {
+    display: none;
+  }
+
+  .widget-container .widget-color .texts p {
+    font-size: 6px;
   }
 }
