@@ -295,36 +295,55 @@ body {
 }
 
 @media (max-width: 759px) {
-  .yellow-body .yellow-body-texts {
-    margin-top: 80px;
-  }
-
-  .yellow-body .yellow-body-texts h1 {
-    font-size: 50px;
-  }
-}
-
-@media (max-width: 450px) {
-  body {
-    overflow-x: hidden;
-    background-size: cover;
-  }
-
-  .yellow-body .yellow-body-project {
-    width: 100%;
-  }
-
   .yellow-body {
-    height: 1300px;
+    margin-top: 25px;
+    /* height: 1000px; */
+    height: auto;
     display: flex;
     flex-direction: column;
   }
 
-  .green-body .green-body-texts {
-    margin-top: 60px;
+  .yellow-body .yellow-body-texts h1 {
+    font-size: 30px;
   }
 
-  .green-body .green-body-texts h1 {
-    font-size: 50px;
+  .yellow-body .yellow-body-texts {
+    margin-top: 20px;
+  }
+
+  .yellow-body-texts p {
+    font-size: 13px;
+  }
+
+  .yellow-body-project {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 450px) {
+  .yellow-body {
+    margin-top: 25px;
+    /* height: 1000px; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .yellow-body .yellow-body-texts h1 {
+    font-size: 30px;
+  }
+
+  .yellow-body .yellow-body-texts {
+    margin-top: 20px;
+  }
+
+  .yellow-body-texts p {
+    font-size: 13px;
+  }
+
+  .yellow-body-project {
+    width: 100%;
+    height: auto;
   }
 }
