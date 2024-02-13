@@ -288,6 +288,10 @@ body {
 }
 
 @media (max-width: 759px) {
+  .green-body {
+    height: 100vh;
+  }
+
   .green-body .green-body-texts {
     margin-top: 80px;
   }
@@ -301,6 +305,10 @@ body {
 }
 
 @media (max-width: 375px) {
+  .green-body {
+    height: 100vh;
+  }
+
   .green-body .green-body-texts {
     margin-top: 60px;
   }
