@@ -321,7 +321,7 @@ body {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 375px) {
   .yellow-body {
     margin-top: 25px;
     /* height: 1000px; */
