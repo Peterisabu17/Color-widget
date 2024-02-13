@@ -296,45 +296,58 @@ body {
 
 @media (max-width: 759px) {
   .orange-body {
-    height: 1300px;
+    margin-top: 30px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
   }
 
-  .orange-body .orange-body-project {
+  .orange-body .orange-body-texts h1 {
+    font-size: 40px;
+  }
+
+  .orange-body .orange-body-texts {
+    margin-top: 20px;
+  }
+
+  .orange-body-texts p {
+    font-size: 15px;
+  }
+
+  .orange-body-project {
     width: 100%;
   }
 
-  .orange-body .orange-body-texts {
-    margin-top: 80px;
-  }
-
-  .orange-body .orange-body-texts h1 {
-    font-size: 50px;
+  .tabs-container {
+    width: 100%;
   }
 }
 
-@media (max-width: 450px) {
-  body {
-    overflow-x: hidden;
-    background-size: cover;
-  }
-
-  .orange-body .orange-body-texts {
-    margin-top: 60px;
-  }
-
-  .orange-body .orange-body-texts h1 {
-    font-size: 50px;
-  }
-
+@media (max-width: 375px) {
   .orange-body {
-    height: 1300px;
+    margin-top: 25px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
   }
 
-  .orange-body .orange-body-project {
+  .orange-body .orange-body-texts h1 {
+    font-size: 30px;
+  }
+
+  .orange-body .orange-body-texts {
+    margin-top: 20px;
+  }
+
+  .orange-body-texts p {
+    font-size: 13px;
+  }
+
+  .orange-body-project {
+    width: 100%;
+  }
+
+  .tabs-container {
     width: 100%;
   }
 }
